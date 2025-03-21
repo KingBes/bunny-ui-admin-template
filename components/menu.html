@@ -1,0 +1,104 @@
+<nav class="bny-nav-lateral" hx-ext="bny-nav-lateral">
+    <!-- logo详情 -->
+    <div class="bny-nav-title">
+        <img src="/assets/bunny/bunny.png" alt="bunny" class="logo" />
+        <span class="bny-nav-text">BunnyUI</span>
+    </div>
+    <!-- 导航栏主体 -->
+    <ul class="bny-nav-body">
+        <li>
+            <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="0" bny-name="工作台"
+                bny-url="/view/worked/workbench.html">
+                <i class="icon icon-shuju"></i>
+                <span class="bny-nav-name">工作台</span>
+            </a>
+            <ul class="bny-nav-child">
+                <li>
+                    <a class="bny-nav-name" href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab"
+                        bny-id="0" bny-name="工作台" bny-url="/view/worked/workbench.html">工作台</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="bny-nav-iocn">
+                <a href="javascript:;">
+                    <i class="icon icon-guanli"></i>
+                    <span class="bny-nav-name">组件</span>
+                </a>
+                <i class="icon icon-xia2 arrow"></i>
+            </div>
+            <ul class="bny-nav-child">
+                <li><a class="bny-nav-name" href="javascript:;">组件</a></li>
+                <li>
+                    <div class="bny-nav-iocn">
+                        <a href="javascript:;">
+                            <i class="icon icon-jingbao"></i>
+                            <span>弹性盒子</span>
+                        </a>
+                        <i class="icon icon-xia2 arrow"></i>
+                    </div>
+                    <ul class="bny-nav-child">
+                        <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="100"
+                                bny-name="从堆叠到水平排列" bny-url="/view/module/flexbox/001.html"
+                                bny-is-delete="true">从堆叠到水平排列</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="101" bny-name="按钮"
+                        bny-url="/view/module/button.html" bny-is-delete="true">按钮</a>
+                </li>
+                <li>
+                    <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="102" bny-name="表单"
+                        bny-url="/view/module/form.html" bny-is-delete="true">表单</a>
+                </li>
+                <li>
+                    <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="103" bny-name="表格"
+                        bny-url="/view/module/table.html" bny-is-delete="true">表格</a>
+                </li>
+                <li>
+                    <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="104"
+                        bny-name="弹出框" bny-url="/view/module/jump.html" bny-is-delete="true">弹出框</a>
+                </li>
+                <li>
+                    <a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="105" bny-name="面板"
+                        bny-url="/view/module/panel.html" bny-is-delete="true">面板</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="bny-nav-iocn">
+                <a href="#">
+                    <i class="icon icon-weixin"></i>
+                    <span class="bny-nav-name">页面</span>
+                </a>
+                <i class="icon icon-xia2 arrow"></i>
+            </div>
+            <ul class="bny-nav-child">
+                <li><a class="bny-nav-name" href="#">页面</a></li>
+                <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="110"
+                        bny-name="个人主页" bny-url="/view/page/personal.html" bny-is-delete="true">个人主页</a></li>
+                <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="112"
+                        bny-name="通讯录" bny-url="/view/page/address.html" bny-is-delete="true">通讯录</a></li>
+                <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="113"
+                        bny-name="404页" bny-url="/view/page/404.html" bny-is-delete="true">404页面</a></li>
+                <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="114"
+                        bny-name="出错页" bny-url="/view/page/error.html" bny-is-delete="true">出错页</a></li>
+                <li><a href="javascript:;" hx-ext="bny-tab-add" bny-target="#layout-body-tab" bny-id="115"
+                        bny-name="iframe页" bny-url="/view/page/iframe.html" bny-is-delete="true">iframe</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" hx-ext="bny-page" hx-get="/components/config.html" bny-width="300px"
+                bny-height="100%" bny-offset="right" bny-shade="true" bny-anim="2">
+                <i class="icon icon-weixin"></i>
+                <span class="bny-nav-name">设置</span>
+            </a>
+            <ul class="bny-nav-child">
+                <li>
+                    <a class="bny-nav-name" href="javascript:;" hx-ext="bny-page" hx-get="/components/config.html"
+                        bny-width="300px" bny-height="100%" bny-offset="right" bny-shade="true" bny-anim="2">设置</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
