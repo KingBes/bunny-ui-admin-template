@@ -197,8 +197,6 @@ htmx.on("#left-menu", "click", function (e) {
             anim: 1,
             shade: true,
         })
-        const layer = htmx.find(".bny-layer")
-        htmx.process(layer)
     } else {
         if (layout.classList.contains("mini-menu")) {
             layout.classList.remove("mini-menu")
